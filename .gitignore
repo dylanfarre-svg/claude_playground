@@ -32,3 +32,13 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# AlphaZero training artifacts
+alphazero_connect5/checkpoints/
+alphazero_connect5/training.log
